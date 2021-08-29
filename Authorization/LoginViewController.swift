@@ -64,8 +64,9 @@ extension LoginViewController: UITextFieldDelegate {
             passwordTF.becomeFirstResponder()
         } else {
             logInButton()
-            performSegue(withIdentifier: "showWelcomeVC", sender: nil)
+            performSegue(withIdentifier: "welcomeVC", sender: nil)
         }
         return true
     }
 }
+

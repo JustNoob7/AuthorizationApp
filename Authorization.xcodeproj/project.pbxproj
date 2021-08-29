@@ -39,6 +39,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		535C42B126DBB4320031AA67 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5383C0A026D563A400AD698E /* AppDelegate.swift */,
+				5383C0A226D563A400AD698E /* SceneDelegate.swift */,
+				5383C0AE26D563A500AD698E /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		535C42B226DBB4870031AA67 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5383C0A926D563A500AD698E /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		535C42B326DBB49D0031AA67 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				5383C0A626D563A400AD698E /* Main.storyboard */,
+				5383C0AB26D563A500AD698E /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		5383C09426D563A400AD698E = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +85,11 @@
 		5383C09F26D563A400AD698E /* Authorization */ = {
 			isa = PBXGroup;
 			children = (
-				5383C0A026D563A400AD698E /* AppDelegate.swift */,
-				5383C0A226D563A400AD698E /* SceneDelegate.swift */,
+				535C42B126DBB4320031AA67 /* App */,
 				5383C0A426D563A400AD698E /* LoginViewController.swift */,
 				5383C0B426D572BA00AD698E /* WelcomeViewController.swift */,
-				5383C0A626D563A400AD698E /* Main.storyboard */,
-				5383C0A926D563A500AD698E /* Assets.xcassets */,
-				5383C0AB26D563A500AD698E /* LaunchScreen.storyboard */,
-				5383C0AE26D563A500AD698E /* Info.plist */,
+				535C42B326DBB49D0031AA67 /* Storyboards */,
+				535C42B226DBB4870031AA67 /* Resources */,
 			);
 			path = Authorization;
 			sourceTree = "<group>";
@@ -292,7 +316,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 292XY44XLL;
-				INFOPLIST_FILE = Authorization/Info.plist;
+				INFOPLIST_FILE = Authorization/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,7 +335,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 292XY44XLL;
-				INFOPLIST_FILE = Authorization/Info.plist;
+				INFOPLIST_FILE = Authorization/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
