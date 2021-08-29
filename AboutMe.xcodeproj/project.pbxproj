@@ -23,7 +23,7 @@
 		535C42B526DBC2570031AA67 /* AboutMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeViewController.swift; sourceTree = "<group>"; };
 		535C42B726DBC2DD0031AA67 /* HobbiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbiesViewController.swift; sourceTree = "<group>"; };
 		535C42BA26DBC55C0031AA67 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		5383C09D26D563A400AD698E /* Authorization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Authorization.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5383C09D26D563A400AD698E /* AboutMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AboutMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5383C0A026D563A400AD698E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5383C0A226D563A400AD698E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5383C0A426D563A400AD698E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -94,7 +94,7 @@
 		5383C09426D563A400AD698E = {
 			isa = PBXGroup;
 			children = (
-				5383C09F26D563A400AD698E /* Authorization */,
+				5383C09F26D563A400AD698E /* AboutMe */,
 				5383C09E26D563A400AD698E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -102,12 +102,12 @@
 		5383C09E26D563A400AD698E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5383C09D26D563A400AD698E /* Authorization.app */,
+				5383C09D26D563A400AD698E /* AboutMe.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5383C09F26D563A400AD698E /* Authorization */ = {
+		5383C09F26D563A400AD698E /* AboutMe */ = {
 			isa = PBXGroup;
 			children = (
 				535C42B426DBC21A0031AA67 /* ViewControllers */,
@@ -116,15 +116,15 @@
 				535C42B226DBB4870031AA67 /* Resources */,
 				535C42B126DBB4320031AA67 /* App */,
 			);
-			path = Authorization;
+			path = AboutMe;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5383C09C26D563A400AD698E /* Authorization */ = {
+		5383C09C26D563A400AD698E /* AboutMe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5383C0B126D563A500AD698E /* Build configuration list for PBXNativeTarget "Authorization" */;
+			buildConfigurationList = 5383C0B126D563A500AD698E /* Build configuration list for PBXNativeTarget "AboutMe" */;
 			buildPhases = (
 				5383C09926D563A400AD698E /* Sources */,
 				5383C09A26D563A400AD698E /* Frameworks */,
@@ -134,9 +134,9 @@
 			);
 			dependencies = (
 			);
-			name = Authorization;
+			name = AboutMe;
 			productName = Authorization;
-			productReference = 5383C09D26D563A400AD698E /* Authorization.app */;
+			productReference = 5383C09D26D563A400AD698E /* AboutMe.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -153,7 +153,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5383C09826D563A400AD698E /* Build configuration list for PBXProject "Authorization" */;
+			buildConfigurationList = 5383C09826D563A400AD698E /* Build configuration list for PBXProject "AboutMe" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -166,7 +166,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5383C09C26D563A400AD698E /* Authorization */,
+				5383C09C26D563A400AD698E /* AboutMe */,
 			);
 		};
 /* End PBXProject section */
@@ -378,7 +378,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5383C09826D563A400AD698E /* Build configuration list for PBXProject "Authorization" */ = {
+		5383C09826D563A400AD698E /* Build configuration list for PBXProject "AboutMe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5383C0AF26D563A500AD698E /* Debug */,
@@ -387,7 +387,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5383C0B126D563A500AD698E /* Build configuration list for PBXNativeTarget "Authorization" */ = {
+		5383C0B126D563A500AD698E /* Build configuration list for PBXNativeTarget "AboutMe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5383C0B226D563A500AD698E /* Debug */,
