@@ -8,13 +8,18 @@
 import UIKit
 
 class HobbiesViewController: UIViewController {
-
+    
+    @IBOutlet var navigationTittle: UINavigationItem!
+    
     @IBOutlet var hobbiesInfo: UILabel!
+    
+    var hobbies: [String]!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        navigationTittle.title = "Hobbies"
+//        hobbiesInfo.text = hobbies.joined(separator: ". ")
     }
 
 }

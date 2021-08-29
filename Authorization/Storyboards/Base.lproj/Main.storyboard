@@ -109,7 +109,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="170" translatesAutoresizingMaskIntoConstraints="NO" id="SON-Zi-HHL">
                                 <rect key="frame" x="16" y="160" width="288" height="248"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3od-Pt-RlT">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3od-Pt-RlT">
                                         <rect key="frame" x="83.5" y="0.0" width="121" height="36"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -149,13 +149,14 @@
         <!--About me-->
         <scene sceneID="Pvp-0m-iQK">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oqh-YM-6rc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController title="About me" id="IOv-to-s1P" customClass="AboutMeViewController" customModule="Authorization" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VUj-k3-jXS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="4DK-rm-OsQ">
-                                <rect key="frame" x="16" y="44" width="288" height="49"/>
+                                <rect key="frame" x="16" y="44" width="288" height="43.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Обо мне:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jWL-2p-kzV">
                                         <rect key="frame" x="0.0" y="0.0" width="288" height="27.5"/>
@@ -164,8 +165,8 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6V9-kp-a1c">
-                                        <rect key="frame" x="0.0" y="27.5" width="288" height="21.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <rect key="frame" x="0.0" y="27.5" width="288" height="16"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -183,7 +184,7 @@
                     <navigationItem key="navigationItem" id="Oho-Pw-ojs">
                         <barButtonItem key="rightBarButtonItem" title="Hobbies" id="TMD-as-4zO">
                             <connections>
-                                <segue destination="OGk-9o-FJt" kind="show" id="6Lz-J5-iFP"/>
+                                <segue destination="OGk-9o-FJt" kind="show" identifier="" id="6Lz-J5-iFP"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -192,9 +193,8 @@
                         <outlet property="userInformation" destination="6V9-kp-a1c" id="yYZ-bv-4Mx"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="oqh-YM-6rc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2949" y="93"/>
+            <point key="canvasLocation" x="2947.5" y="92.957746478873247"/>
         </scene>
         <!--Hobbies-->
         <scene sceneID="JVv-DG-RhX">
@@ -205,7 +205,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0eK-pM-Rk0">
-                                <rect key="frame" x="16" y="44" width="288" height="21.5"/>
+                                <rect key="frame" x="16" y="64" width="288" height="21.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -216,12 +216,13 @@
                         <constraints>
                             <constraint firstItem="5tV-Sa-p8A" firstAttribute="trailing" secondItem="0eK-pM-Rk0" secondAttribute="trailing" constant="16" id="4Xr-Y9-U2t"/>
                             <constraint firstItem="0eK-pM-Rk0" firstAttribute="leading" secondItem="5tV-Sa-p8A" secondAttribute="leading" constant="16" id="sSQ-7z-fHy"/>
-                            <constraint firstItem="0eK-pM-Rk0" firstAttribute="top" secondItem="5tV-Sa-p8A" secondAttribute="top" id="xKS-82-MNj"/>
+                            <constraint firstItem="0eK-pM-Rk0" firstAttribute="top" secondItem="5tV-Sa-p8A" secondAttribute="top" constant="20" id="xKS-82-MNj"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="5vP-Kp-yTl"/>
                     <connections>
                         <outlet property="hobbiesInfo" destination="0eK-pM-Rk0" id="CeR-mm-oYD"/>
+                        <outlet property="navigationTittle" destination="5vP-Kp-yTl" id="HUK-j9-NFU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9BY-wa-4cz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
