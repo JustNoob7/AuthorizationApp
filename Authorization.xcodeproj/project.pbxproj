@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		535C42B626DBC2570031AA67 /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535C42B526DBC2570031AA67 /* AboutMeViewController.swift */; };
+		535C42B826DBC2DD0031AA67 /* HobbiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535C42B726DBC2DD0031AA67 /* HobbiesViewController.swift */; };
 		5383C0A126D563A400AD698E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5383C0A026D563A400AD698E /* AppDelegate.swift */; };
 		5383C0A326D563A400AD698E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5383C0A226D563A400AD698E /* SceneDelegate.swift */; };
 		5383C0A526D563A400AD698E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5383C0A426D563A400AD698E /* LoginViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		535C42B526DBC2570031AA67 /* AboutMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeViewController.swift; sourceTree = "<group>"; };
+		535C42B726DBC2DD0031AA67 /* HobbiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbiesViewController.swift; sourceTree = "<group>"; };
 		5383C09D26D563A400AD698E /* Authorization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Authorization.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5383C0A026D563A400AD698E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5383C0A226D563A400AD698E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +70,17 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
+		535C42B426DBC21A0031AA67 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5383C0A426D563A400AD698E /* LoginViewController.swift */,
+				5383C0B426D572BA00AD698E /* WelcomeViewController.swift */,
+				535C42B526DBC2570031AA67 /* AboutMeViewController.swift */,
+				535C42B726DBC2DD0031AA67 /* HobbiesViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		5383C09426D563A400AD698E = {
 			isa = PBXGroup;
 			children = (
@@ -86,8 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				535C42B126DBB4320031AA67 /* App */,
-				5383C0A426D563A400AD698E /* LoginViewController.swift */,
-				5383C0B426D572BA00AD698E /* WelcomeViewController.swift */,
+				535C42B426DBC21A0031AA67 /* ViewControllers */,
 				535C42B326DBB49D0031AA67 /* Storyboards */,
 				535C42B226DBB4870031AA67 /* Resources */,
 			);
@@ -165,7 +179,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5383C0A526D563A400AD698E /* LoginViewController.swift in Sources */,
+				535C42B626DBC2570031AA67 /* AboutMeViewController.swift in Sources */,
 				5383C0B526D572BA00AD698E /* WelcomeViewController.swift in Sources */,
+				535C42B826DBC2DD0031AA67 /* HobbiesViewController.swift in Sources */,
 				5383C0A126D563A400AD698E /* AppDelegate.swift in Sources */,
 				5383C0A326D563A400AD698E /* SceneDelegate.swift in Sources */,
 			);
