@@ -13,13 +13,13 @@ class HobbiesViewController: UIViewController {
     
     @IBOutlet var hobbiesInfo: UILabel!
     
-    var hobbies: [String]!
+    var hobby: Hobby!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         navigationTittle.title = "Hobbies"
-//        hobbiesInfo.text = hobbies.joined(separator: ". ")
+        hobbiesInfo.text = hobby.title
     }
 
 }
